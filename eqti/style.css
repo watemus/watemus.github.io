@@ -1,0 +1,42 @@
+body {
+    background-color: #000;
+}
+
+.flexer {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    height: 200px;
+}
+
+.header h1 {
+    color: #d2dae2;
+    font-size: 130px;
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.logo {
+    width: 500px;
+    animation:spin 4s linear infinite;
+}
+
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+.footer h2 {
+    color: #d2dae2;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+}
